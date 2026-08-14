@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    background-image: url(Canva.jpeg);
+    background-repeat: no-repeat;
+
+    background-position: top; 
+    
+    
+}
+
+

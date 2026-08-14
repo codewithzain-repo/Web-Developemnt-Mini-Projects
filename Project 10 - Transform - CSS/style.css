@@ -1,0 +1,50 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: poppins;
+
+}
+
+.container{
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(216, 209, 200);
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgba(223, 196, 76, 0.801);
+
+    
+    /* animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate; */
+
+    
+
+
+}
+
+/* 
+@keyframes move {
+    from{
+        transform: translateX(0px) translateY(0px);
+        
+    }
+    
+    to{
+        
+        transform: translateX(100px) translateY(100px);
+        background-color: aqua;
+    }
+    
+} */

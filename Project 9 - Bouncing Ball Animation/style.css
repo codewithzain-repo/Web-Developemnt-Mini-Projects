@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    position: relative;
+}
+
+.ball{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    border-radius: 50%;
+    animation: bouncing-ball-x 3s linear infinite alternate,bouncing-ball-y 1s ease-out infinite alternate;
+
+}
+
+@keyframes bouncing-ball-x {
+    from{
+
+        left: 0 ;
+    
+
+    }
+
+    to{
+
+        left: calc(100% - 100px);
+
+    }
+}
+
+@keyframes bouncing-ball-y {
+    from{
+
+
+        bottom: 0;
+
+    }
+
+    to{
+
+        bottom: calc(100% - 100px);
+
+    }
+}
+
+

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 46, 38);
+}
+
+.container{
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 5px rgb(32, 31, 31);
+    
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.container:hover{
+    scale: 1.04;
+    cursor: pointer;
+
+}
+.container .image img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+}
+
+.container h1{
+    position: relative;
+    margin-top: 20px;
+    font-family: poppins;
+    font-size: 20px;
+    color: rgb(56, 50, 50);
+}
+
+.tag ul{
+    display: flex;
+    gap: 14px;
+}
+
+.tag ul li{
+    list-style: none;
+    margin-top: 2px;
+    border: 1px solid rgb(56, 50, 50);
+    padding: 5px;
+    color: rgb(56, 50, 50);
+    border-radius: 10px;
+    transition: 0.1s ease-out;
+}
+
+.tag ul li:hover{
+    background-color: rgb(32, 37, 39);
+    transform: scale(1.2);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.container p{
+    text-align: center;
+    position: relative;
+    /* margin-top: 13px; */
+    margin: 15px;
+    color: rgb(56, 50, 50);
+
+}
+
+.container .read-me{
+    position: relative;
+    top: 2px;
+    border: 1px solid black;
+    padding: 10px;
+    color: rgb(56, 50, 50);
+    transition: 0.1s ease-out ;
+
+    border-radius: 10px;
+}
+
+
+
+.container .read-me:hover{
+    background-color: rgb(32, 37, 39);
+    transform: scale(1.2);
+    color: aliceblue;
+    cursor: pointer;
+}
