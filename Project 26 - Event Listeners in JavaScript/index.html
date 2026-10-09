@@ -3,13 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Event Listeners in JavaScript</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            align-items: center;
+
+            height: 300px;
+            width: 800px;
+            background-color: lightgray;
+        }
+
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            height: 200px;
+            background-color: lightblue;
+        }
+        .box2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            height: 100px;
+            background-color: rgb(141, 209, 16);
+        }
+
+    
+    </style>
 </head>
 <body>
 
     <h1 id="title">My Website</h1>
     <button id="changeTitleButton">Change Title</button>
-    
+
+    <form id="myForm">
+        <input type="text" id="inputField" placeholder="Enter value">
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+     <!-- Event Bubbling Concept -->
+
+     <h1>Random Color Changer</h1>
+
+    <div class="container">
+
+        <div class="box box1">
+
+        
+            <div class="box box2"></div>
+
+
+        </div>
+
+            
+        
+
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
